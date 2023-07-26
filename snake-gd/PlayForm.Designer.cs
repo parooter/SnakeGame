@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Play_form));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.picMap = new System.Windows.Forms.PictureBox();
-            this.realTimeSource1 = new DevExpress.Data.RealTimeSource();
             this.lbscore = new System.Windows.Forms.Label();
             this.btplay = new System.Windows.Forms.Button();
             this.btpau = new System.Windows.Forms.Button();
@@ -60,10 +59,6 @@
             this.picMap.Size = new System.Drawing.Size(581, 406);
             this.picMap.TabIndex = 0;
             this.picMap.TabStop = false;
-            // 
-            // realTimeSource1
-            // 
-            this.realTimeSource1.DisplayableProperties = null;
             // 
             // lbscore
             // 
@@ -228,7 +223,6 @@
         #endregion
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.PictureBox picMap;
-        private DevExpress.Data.RealTimeSource realTimeSource1;
         private System.Windows.Forms.Label lbscore;
         private System.Windows.Forms.Button btplay;
         private System.Windows.Forms.Button btpau;
